@@ -1,41 +1,50 @@
 
 # pretalab-ciclo14-git-github
-Atividade prática - Ciclo de vida
+Atividade prática - Ciclo de vida do arquivo
 
->>> Resumo Básico de Git e GitHub
+# Resumo Básico de Git e GitHub
 
 * Configuração inicial:
 
 git config --global user.name "Seu Nome"
+
 git config --global user.email "seu@email.com"
 
 
 
 * Comandos iniciais:
 
-- Iniciar repositório: 
+Iniciar repositório: 
 git init
-- Ver status dos arquivos:
+
+Ver status dos arquivos:
 git status
-- Adicionar arquivos para commit:
+
+Adicionar arquivos para commit:
 git add nome_do_arquivo (arquivo específico)
+
 git add .  (todos os arquivos)
-- Fazer commit:
+
+Fazer commit:
 git commit -m "Mensagem do commit"
-- Ver histórico de commits:
+
+Ver histórico de commits:
 git log
 
 
 
 * Trabalhando com Repositórios Remotos:
 
-- Conectar com repositório remoto:
+Conectar com repositório remoto:
 git remote add origin https://github.com/usuario/repositorio.git
-- Enviar commits para o GitHub:
+
+Enviar commits para o GitHub:
 git push origin main
-- Baixar alterações do GitHub:
+
+Baixar alterações do GitHub:
 git pull origin main
-- Clonar repositório existente:
+
+Clonar repositório existente:
 git clone https://github.com/usuario/repositorio.git
 
 
